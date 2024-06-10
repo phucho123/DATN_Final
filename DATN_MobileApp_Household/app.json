@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "DATN2",
+    "slug": "DATN2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.anonymous.DATN2"
+    }
+  }
+}
